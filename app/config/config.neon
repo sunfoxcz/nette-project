@@ -7,9 +7,17 @@ application:
         *: App\*Module\Presenters\*Presenter
 
 
+console:
+    url: http://nette.dev
+
+
 session:
     expiration: 14 days
 
 
 services:
     router: App\RouterFactory::createRouter
+
+
+extensions:
+    console: Kdyby\Console\DI\ConsoleExtension
