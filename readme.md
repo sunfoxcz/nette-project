@@ -21,8 +21,8 @@ Installation
 The best way to install Web Project is using Composer. If you don't have Composer yet,
 download it following [the instructions](https://doc.nette.org/composer). Then use command:
 
-	composer create-project nette/web-project path/to/install
-	cd path/to/install
+    composer create-project nette/web-project path/to/install
+    cd path/to/install
 
 
 Make directories `temp/` and `log/` writable.
@@ -33,7 +33,7 @@ Web Server Setup
 
 The simplest way to get started is to start the built-in PHP server in the root directory of your project:
 
-	php -S localhost:8000 -t www
+    php -S localhost:8000 -t www
 
 Then visit `http://localhost:8000` in your browser to see the welcome page.
 
