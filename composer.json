@@ -21,7 +21,8 @@
         "tracy/tracy": "^2.4",
         "kdyby/console": "^2.6",
         "kdyby/doctrine": "^3.1",
-        "majkl578/nette-identity-doctrine": "^2.2"
+        "majkl578/nette-identity-doctrine": "^2.2",
+        "kdyby/doctrine-magic-accessors": "^0.2"
     },
     "require-dev": {
         "nette/tester": "^1.6"
