@@ -15,17 +15,18 @@
             <div class="navbar-header">
                 <a class="navbar-brand" n:href="Homepage:">Nette</a>
             </div>
+            {control menu}
             <p class="navbar-text">
                 {if $user->isLoggedIn()}
-                    Signed in as {$user->identity->username} (<a n:href="Sign:out">sign out</a>)
-                {else}
-                    <a class="navbar-right" n:href="Sign:in">Sign In</a>
+                    Signed in as {$user->identity->username}
                 {/if}
             </p>
         </div>
     </nav>
 
     <div class="container">
+        {control menu:breadcrumb}
+
         <div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
 
         {include content}

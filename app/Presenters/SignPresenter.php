@@ -3,10 +3,9 @@
 namespace App\Presenters;
 
 use App\Forms\SignInFormFactory;
-use Nette;
 
 
-final class SignPresenter extends Nette\Application\UI\Presenter
+final class SignPresenter extends BasePresenter
 {
     /**
      * @var SignInFormFactory

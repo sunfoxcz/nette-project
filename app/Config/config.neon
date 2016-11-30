@@ -40,3 +40,7 @@ extensions:
     annotations: Kdyby\Annotations\DI\AnnotationsExtension
     doctrine: Kdyby\Doctrine\DI\OrmExtension
     nextras.form: Nextras\Forms\Bridges\NetteDI\FormsExtension
+    menu: DK\Menu\DI\Extension
+
+includes:
+    - menu.neon

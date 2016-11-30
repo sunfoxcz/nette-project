@@ -1,0 +1,16 @@
+menu:
+    default:
+        template:
+            menu: %appDir%/Components/Menu/menu.latte
+            breadcrumb: %appDir%/Components/Menu/breadcrumb.latte
+        items:
+            Homepage:
+                target: Homepage:default
+            Sign in:
+                target: Sign:in
+                allow:
+                    loggedIn: FALSE
+            Sign out:
+                target: Sign:out
+                allow:
+                    loggedIn: TRUE
