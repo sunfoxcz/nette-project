@@ -7,6 +7,13 @@ application:
         *: App\*Module\Presenters\*Presenter
 
 
+autoRegister:
+    dirs: [
+        App\Forms: %appDir%/Forms,
+        App\Model\Services: %appDir%/Model/Services
+    ]
+
+
 console:
     url: http://nette.dev
     commands:

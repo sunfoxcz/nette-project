@@ -15,6 +15,13 @@
             <div class="navbar-header">
                 <a class="navbar-brand" n:href="Homepage:">Nette</a>
             </div>
+            <p class="navbar-text">
+                {if $user->isLoggedIn()}
+                    Signed in as {$user->identity->username} (<a n:href="Sign:out">sign out</a>)
+                {else}
+                    <a class="navbar-right" n:href="Sign:in">Sign In</a>
+                {/if}
+            </p>
         </div>
     </nav>
 
