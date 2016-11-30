@@ -1,5 +1,7 @@
 <?php
 
+setlocale(LC_ALL, 'cs_CZ.utf8');
+
 require __DIR__ . '/../vendor/autoload.php';
 
 $configurator = new Nette\Configurator;
