@@ -9,6 +9,8 @@ application:
 
 console:
     url: http://nette.dev
+    commands:
+        - App\Console\DeleteCacheCommand
 
 
 session:
