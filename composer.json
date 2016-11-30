@@ -23,7 +23,8 @@
         "kdyby/doctrine": "^3.1",
         "majkl578/nette-identity-doctrine": "^2.2",
         "kdyby/doctrine-magic-accessors": "^0.2",
-        "nextras/forms": "^2.0"
+        "nextras/forms": "^2.0",
+        "ublaboo/directory-register": "^1.0"
     },
     "require-dev": {
         "nette/tester": "^1.6"
