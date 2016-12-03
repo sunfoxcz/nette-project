@@ -14,7 +14,7 @@ use Nette\Security\Passwords;
  * @ORM\Table(name="user")
  * @ORM\Entity
  */
-final class User implements IIdentity
+class User implements IIdentity
 {
     use Kdyby\Doctrine\Entities\MagicAccessors;
 
