@@ -2,20 +2,20 @@ parameters:
 
 
 application:
-	errorPresenter: Error
-	mapping:
-		*: [App, Modules\*, Presenters\*Presenter]
+    errorPresenter: Error
+    mapping:
+        *: [App, Modules\*, Presenters\*Presenter]
 
 
 session:
-	expiration: 14 days
+    expiration: 14 days
 
 
 di:
-	export:
-		parameters: no
-		tags: no
+    export:
+        parameters: no
+        tags: no
 
 
 services:
-	router: App\Router\RouterFactory::createRouter
+    router: App\Router\RouterFactory::createRouter
