@@ -1,9 +1,15 @@
 {
-	"name": "nette/web-project",
-	"description": "Nette: Standard Web Project",
+	"name": "sunfoxcz/nette-project",
+	"description": "Standard Nette project for Sunfox applications",
 	"keywords": ["nette"],
 	"type": "project",
-	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Tomáš Jacík",
+			"homepage": "https://tomasjacik.cz"
+		}
+	],
 	"require": {
 		"php": ">= 7.1",
 		"nette/application": "^3.0",
