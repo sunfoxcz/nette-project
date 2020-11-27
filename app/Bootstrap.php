@@ -18,6 +18,8 @@ class Bootstrap
         }
 
         $configurator->enableTracy(__DIR__ . '/../var/log');
+
+        setlocale(LC_ALL, 'cs_CZ.utf8');
         $configurator->setTimeZone('Europe/Prague');
         $configurator->setTempDirectory(__DIR__ . '/../var/temp');
 
