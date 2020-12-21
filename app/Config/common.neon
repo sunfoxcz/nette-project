@@ -13,7 +13,7 @@ di:
         tags: no
 
 services:
-    router: App\Router\RouterFactory::createRouter
+    - App\Router\RouterFactory::createRouter
 
 includes:
     - console.neon
