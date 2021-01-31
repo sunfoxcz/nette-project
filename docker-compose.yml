@@ -43,11 +43,11 @@ services:
 
   adminer:
     container_name: nette-project-adminer
-    image: pkristian/adminer
-    ports:
-      - 8080:8080
+    image: adminer:fastcgi
+    environment:
+      - ADMINER_DEFAULT_SERVER=mysql
     links:
-      - mysql:db
+      - mysql
 
 volumes:
   mysql-data:
