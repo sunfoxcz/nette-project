@@ -1,4 +1,4 @@
-{* This is the welcome page, you can delete it *}
+{varType string $mysqlVersion}
 
 {block content}
 <div id="banner">
@@ -14,6 +14,8 @@
     <a href="https://blog.nette.org">blog</a> and <a href="https://forum.nette.org">forum</a>.</p>
 
     <h2>We hope you enjoy Nette!</h2>
+
+    <p>MySQL version: {$mysqlVersion}</p>
 </div>
 
 <style>
