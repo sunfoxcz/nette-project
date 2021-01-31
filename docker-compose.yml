@@ -32,8 +32,10 @@ services:
     container_name: nette-project-db
     image: mysql:5.7
     environment:
-      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ROOT_PASSWORD=xxx
+      - MYSQL_DATABASE=app
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=xxx
     volumes:
       - mysql-data:/var/lib/mysql
       - ./docker/mysql:/docker-entrypoint-initdb.d

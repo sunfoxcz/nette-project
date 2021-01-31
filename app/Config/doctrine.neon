@@ -13,3 +13,8 @@ extensions:
 nettrine.orm.annotations:
     mapping:
         App\Model: %appDir%/Model
+
+nettrine.dbal:
+    connection:
+        driver: pdo_mysql
+        charset: utf8
